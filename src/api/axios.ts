@@ -1,7 +1,7 @@
 import { message, notification } from "antd";
 import axios from "axios";
 import { authRefreshToken } from "./auth";
-const BASE_URL = process.env.REACT_APP_DB_URL;
+const BASE_URL = 'http://thongtinlietsi.gov.vn';
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
 });
