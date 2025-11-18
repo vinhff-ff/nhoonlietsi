@@ -1,14 +1,6 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
-import { useNavigate } from "react-router-dom";
 import { mainImages } from "../../data/imgMain"; 
 
 export default function ImgMain() {
-  const navigate = useNavigate();
-
-  const handleClick = (path: string) => {
-    navigate(`/${path}`);
-  };
 
   return (
     <>
@@ -16,13 +8,11 @@ export default function ImgMain() {
         <div
           key={item.id}
           className="img-main"
-          // onClick={() => handleClick(item.path)}
         >
           <div className="img-frame">
-            <LazyLoadImage
+            <img
               src={item.img}
               alt={item.noiDung}
-              effect="blur"
               className="main-image"
             />
             <div className="img-info">
