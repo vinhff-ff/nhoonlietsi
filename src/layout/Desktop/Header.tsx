@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { MenuItem, menuData } from "../../data/menu";
 import Logo from '../../asset/logo.png';
 export default function Header() {
   const [menu, setMenu] = useState<MenuItem[]>([]);
   const [scrolled, setScrolled] = useState(false);
-
-  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -17,7 +15,7 @@ export default function Header() {
   }, []);
 
   const handleNavigate = (path: string) => {
-    navigate(path);
+    window.location.assign(path);
     window.scrollTo(0, 0);
   };
 
@@ -37,9 +35,8 @@ export default function Header() {
               return (
                 <li key={item.id} >
                   <button
-                    className={`nav-link ${isActive ? "active" : ""} ${
-                      scrolled ? "scrolled" : ""
-                    } font-kodchasan`}
+                    className={`nav-link ${isActive ? "active" : ""} ${scrolled ? "scrolled" : ""
+                      } font-kodchasan`}
                     onClick={() => handleNavigate(item.path)}
                   >
                     {item.title}

@@ -1,15 +1,13 @@
 import { useEffect, useState } from "react";
 import { MenuOutlined } from "@ant-design/icons";
 import DrawerCustom from "../../custom/Drawer/index";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Logo from "../../asset/logo.png";
 import { menuData, MenuItem } from "../../data/menu"; 
 export default function HeaderMobile() {
   const [menu, setMenu] = useState<MenuItem[]>([]);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -20,7 +18,7 @@ export default function HeaderMobile() {
   }, []);
 
   const handleNavigate = (path: string) => {
-    navigate(path);
+    window.location.assign(path);
     window.scrollTo(0, 0);
     setDrawerOpen(false);
   };

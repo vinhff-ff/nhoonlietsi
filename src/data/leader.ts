@@ -6,7 +6,7 @@ export const leaders: Leader[] = [
         id: "1858-1945",
         name: "Trương Định",
         birth: "1820-1864",
-        img: "https://cdn.baohatinh.vn/images/93923d58fc3bb0f0af3e4594b0c37b71d566b88ce44aeca5cd1e2e1d5190f17044007254023cb0832b1739c5b9800072/77d5063829t3920l49.jpg",
+        img: "https://ordi.vn/wp-content/uploads/2024/08/49996816842_d27a10b30c_o.jpg",
         description:
             "Trương Định là thủ lĩnh nghĩa quân Nam Kỳ, kiên quyết chống Pháp sau khi Gia Định thất thủ, giữ vững ý chí kháng chiến.",
         battleYear: "1861-1864",
@@ -18,7 +18,7 @@ export const leaders: Leader[] = [
         id: "1858-1945",
         name: "Phan Đình Phùng",
         birth: "1847-1896",
-        img: "https://cdn.baohatinh.vn/images/93923d58fc3bb0f0af3e4594b0c37b71d566b88ce44aeca5cd1e2e1d5190f17044007254023cb0832b1739c5b9800072/77d5063829t3920l49.jpg",
+        img: "https://cdn.nhandan.vn/images/78d92bfef5333421c1cfa9f19aa2572af2f6454a381555b801846adcfda2022145c540fb9bfd40f62245885bd9113c240e9e2d66d48e61b3599239903431eb56ab8798562102821c7b7344f384421ba2/1cc908a58ec10eafe48563baaefd8fb4.jpg",
         description:
             "Phan Đình Phùng là lãnh tụ phong trào Cần Vương, nổi bật với khí tiết thanh liêm và quyết tâm chống Pháp.",
         battleYear: "1885-1896",
@@ -30,7 +30,7 @@ export const leaders: Leader[] = [
         id: "1858-1945",
         name: "Hoàng Hoa Thám (Đề Thám)",
         birth: "1858-1913",
-        img: "https://cdn.baohatinh.vn/images/93923d58fc3bb0f0af3e4594b0c37b71d566b88ce44aeca5cd1e2e1d5190f17044007254023cb0832b1739c5b9800072/77d5063829t3920l49.jpg",
+        img: "https://static.wixstatic.com/media/41a9b2_21008072eeb24452815265f188abca75~mv2.png/v1/fill/w_640,h_950,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/41a9b2_21008072eeb24452815265f188abca75~mv2.png",
         description:
             "Đề Thám là thủ lĩnh khởi nghĩa Yên Thế, nổi tiếng với chiến thuật du kích linh hoạt chống Pháp.",
         battleYear: "1887-1913",
@@ -42,7 +42,7 @@ export const leaders: Leader[] = [
         id: "1858-1945",
         name: "Nguyễn Trung Trực",
         birth: "1838-1868",
-        img: "https://cdn.baohatinh.vn/images/93923d58fc3bb0f0af3e4594b0c37b71d566b88ce44aeca5cd1e2e1d5190f17044007254023cb0832b1739c5b9800072/77d5063829t3920l49.jpg",
+        img: "https://www.baolongan.vn/image/news/2015/20150930/fckimage/Nguyen_Trung_Truc_portrait-(1).jpg",
         description:
             "Nguyễn Trung Trực là anh hùng Nam Bộ, nổi tiếng với tinh thần bất khuất và chiến công đánh chìm tàu Pháp.",
         battleYear: "1861-1868",
@@ -54,7 +54,7 @@ export const leaders: Leader[] = [
         id: "1858-1945",
         name: "Nguyễn Thái Học",
         birth: "1902-1930",
-        img: "https://cdn.baohatinh.vn/images/93923d58fc3bb0f0af3e4594b0c37b71d566b88ce44aeca5cd1e2e1d5190f17044007254023cb0832b1739c5b9800072/77d5063829t3920l49.jpg",
+        img: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nguy%E1%BB%85n_Th%C3%A1i_H%E1%BB%8Dc.jpg",
         description:
             "Nguyễn Thái Học là lãnh tụ Việt Nam Quốc dân Đảng, chủ trương đấu tranh vũ trang giành độc lập.",
         battleYear: "1930",
@@ -79,7 +79,7 @@ export const leaders: Leader[] = [
         id: "1945-1975",
         name: "Võ Nguyên Giáp",
         birth: "1911-2013",
-        img: "/images/vonguyengiap.jpg",
+        img: "https://images.hcmcpv.org.vn/res/news/2021/08/20-08-2021-vo-nguyen-giap-vi-nhan-tuong-tan-trung-bao-quoc-9D356295.jpg",
         description:
             "Võ Nguyên Giáp là Đại tướng đầu tiên của Việt Nam, chỉ huy nhiều chiến dịch quyết định trong hai cuộc kháng chiến.",
         battleYear: "1946-1975",
@@ -91,7 +91,7 @@ export const leaders: Leader[] = [
         id: "1945-1975",
         name: "Nguyễn Chí Thanh",
         birth: "1914-1967",
-        img: "/images/nguyenchithanh.jpg",
+        img: "https://baoquangbinh.vn/dataimages/201312/original/images565395_anh4.jpg",
         description:
             "Nguyễn Chí Thanh là nhà lãnh đạo quân sự tài năng, góp phần xây dựng lực lượng chiến đấu tại miền Nam.",
         battleYear: "1965-1967",
@@ -103,7 +103,7 @@ export const leaders: Leader[] = [
         id: "1945-1975",
         name: "Lê Trọng Tấn",
         birth: "1914-1986",
-        img: "/images/letrongtan.jpg",
+        img: "https://upload.wikimedia.org/wikipedia/commons/4/48/Dai-tuong-le-trong-tan.jpg",
         description:
             "Lê Trọng Tấn là tướng lĩnh xuất sắc, tham gia chỉ huy nhiều chiến dịch quan trọng trong kháng chiến.",
         battleYear: "1954-1975",
@@ -115,7 +115,7 @@ export const leaders: Leader[] = [
         id: "1945-1975",
         name: "Trần Văn Trà",
         birth: "1918-1996",
-        img: "/images/tranvantra.jpg",
+        img: "https://baophuyen.vn/upload/Images/2019/thang09/24/tra.jpg",
         description:
             "Trần Văn Trà là tư lệnh quân Giải phóng miền Nam, nổi bật với khả năng chỉ huy chiến trường.",
         battleYear: "1965-1975",
@@ -127,7 +127,7 @@ export const leaders: Leader[] = [
         id: "1945-1975",
         name: "Phạm Hùng",
         birth: "1912-1988",
-        img: "/images/phamhung.jpg",
+        img: "https://tulieuvankien.dangcongsan.vn/upload/3000006/20251024/11430284920d55e8ccf5ce548cfe50ffPham_Hung.jpg",
         description:
             "Phạm Hùng là lãnh đạo cách mạng miền Nam, kiên định trong đấu tranh chính trị và quân sự.",
         battleYear: "1960-1975",
