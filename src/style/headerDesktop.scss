@@ -1,0 +1,80 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+
+  .header-content {
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+
+    @media screen and (max-width: 1024px) {
+      height: 50px;
+    }
+
+    transform: translateY(0);
+    transition: transform 0.5s ease,
+    opacity 0.5s ease;
+  }
+
+  .logo {
+    height: 60px;
+    transition: all 0.5s ease;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      button.nav-link {
+        font-size: 1.3rem;
+        font-weight: 500;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: color 0.3s;
+        color: white;
+        transition: opacity 0.3s, color 0.3s;
+
+        &.active {
+          color: #cccccc;
+        }
+
+        &.scrolled {
+          color: #A81010;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  &.scrolled {
+    background-color: white;
+    background-image: url('../asset/trongDong.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: -1px;
+
+    .header-content {
+      opacity: 1;
+    }
+  }
+
+}

@@ -1,0 +1,114 @@
+.timeline-wrapper-mb {
+  max-width: 1200px;
+  margin: 50px 20px;
+}
+
+.timeline-items-mb {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.timeline-item-mb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../asset/hoavan.png') center / auto repeat;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.timeline-dot-mb {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Text styles chung */
+.timeline-info-mb h4,
+.timeline-info-mb p {
+  margin: 0;
+  padding: 5px 0px;
+}
+
+.timeline-info-mb h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.timeline-info-mb p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .timeline-items-mb {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .timeline-dot-mb {
+    width: 50px;
+    height: 50px;
+  }
+
+  .timeline-info-mb h4 {
+    font-size: 16px;
+  }
+
+  .timeline-info-mb p {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .timeline-items-mb {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .timeline-dot-mb {
+    width: 55px;
+    height: 55px;
+  }
+
+  .timeline-info-mb h4 {
+    font-size: 17px;
+  }
+
+  .timeline-info-mb p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* Link */
+.timeline-link {
+  position: relative;
+  color: #A81010;
+  font-family: sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.timeline-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #A81010;
+  transition: width 0.3s ease;
+}
+
+.timeline-link:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,45 @@
+.menu-list-mobile {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  li {
+    button.nav-link-mobile {
+      font-size: 23px;
+      font-weight: 500;
+      background: none;
+      border: none;
+      text-align: left;
+      width: 100%;
+      cursor: pointer;
+      transition: opacity 0.3s, color 0.3s;
+      color: rgb(0, 42, 255);
+
+      &.active-mobile {
+        color: #4d0101;
+      }
+
+      &.scrolled-mobile {
+        color: #A81010;
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.menu-icon {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &.scrolled {
+    color: red;
+  }
+}

@@ -1,0 +1,14 @@
+.custom-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: all 0.3s;
+  border-radius: 4px;
+  height: calc(32px + 0.4px);
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}

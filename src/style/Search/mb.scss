@@ -1,0 +1,35 @@
+.form-search-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+
+    .form-search-mobile-input {
+        display: flex;
+        gap: 8px;
+
+        input,
+        .select-custom {
+            height: 40px;
+        }
+
+        input {
+            flex: 1 1 auto;
+        }
+
+        .select-custom {
+            width: 121px;
+        }
+    }
+
+    .form-search-mobile-sub {
+        width: 100%;
+        .custom-button {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0 !important;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+    }
+}

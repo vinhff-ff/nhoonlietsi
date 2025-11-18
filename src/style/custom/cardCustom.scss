@@ -1,0 +1,16 @@
+.card-custom {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: white;
+  background-image: url('../../asset/hoavan.png');
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  color: black;
+}
+
+.card-custom:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

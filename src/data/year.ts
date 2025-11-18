@@ -1,0 +1,1 @@
+export const NAM_LIST = Array.from({ length: 2000 - 1858 + 1 }, (_, i) => 1858 + i);
