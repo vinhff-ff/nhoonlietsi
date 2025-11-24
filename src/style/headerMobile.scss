@@ -16,10 +16,10 @@
       width: 100%;
       cursor: pointer;
       transition: opacity 0.3s, color 0.3s;
-      color: rgb(0, 42, 255);
+      color: #A81010;
 
       &.active-mobile {
-        color: #4d0101;
+        color: #4d0101 !important;
       }
 
       &.scrolled-mobile {
